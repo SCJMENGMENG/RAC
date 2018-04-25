@@ -11,11 +11,15 @@
 		245657B3207DBFB0000CB5F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245657B2207DBFB0000CB5F9 /* ViewController.m */; };
 		245657B6207DBFB0000CB5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245657B4207DBFB0000CB5F9 /* Main.storyboard */; };
 		245657B8207DBFB0000CB5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245657B7207DBFB0000CB5F9 /* Assets.xcassets */; };
-		245657BB207DBFB0000CB5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245657B9207DBFB0000CB5F9 /* LaunchScreen.storyboard */; };
 		245657BE207DBFB0000CB5F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 245657BD207DBFB0000CB5F9 /* main.m */; };
+		245657C6207DF5D5000CB5F9 /* RacView.m in Sources */ = {isa = PBXBuildFile; fileRef = 245657C5207DF5D5000CB5F9 /* RacView.m */; };
+		245657C8207EECB4000CB5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245657C7207EECB4000CB5F9 /* LaunchScreen.storyboard */; };
+		245657CB207F0E4D000CB5F9 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245657CA207F0E4D000CB5F9 /* ModelViewController.m */; };
+		EC9CBF60DB789B86AE8CDA26 /* libPods-RACTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC5BC39C5245A557D7674F0 /* libPods-RACTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AC5BC39C5245A557D7674F0 /* libPods-RACTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		245657AB207DBFB0000CB5F9 /* RACTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		245657AE207DBFB0000CB5F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		245657AF207DBFB0000CB5F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -23,9 +27,15 @@
 		245657B2207DBFB0000CB5F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		245657B5207DBFB0000CB5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		245657B7207DBFB0000CB5F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		245657BA207DBFB0000CB5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		245657BC207DBFB0000CB5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		245657BD207DBFB0000CB5F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		245657C4207DF5D5000CB5F9 /* RacView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RacView.h; sourceTree = "<group>"; };
+		245657C5207DF5D5000CB5F9 /* RacView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RacView.m; sourceTree = "<group>"; };
+		245657C7207EECB4000CB5F9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		245657C9207F0E4D000CB5F9 /* ModelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		245657CA207F0E4D000CB5F9 /* ModelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
+		777F3BDFFDA214A8AE510BB8 /* Pods-RACTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACTest/Pods-RACTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F7E232E1756D50F106D022C1 /* Pods-RACTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACTest/Pods-RACTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9CBF60DB789B86AE8CDA26 /* libPods-RACTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				245657AD207DBFB0000CB5F9 /* RACTest */,
 				245657AC207DBFB0000CB5F9 /* Products */,
+				E00C8C9881FC44DE3E16530F /* Pods */,
+				D6D690B2B86DFAE8ACE59F20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,11 +77,32 @@
 				245657B2207DBFB0000CB5F9 /* ViewController.m */,
 				245657B4207DBFB0000CB5F9 /* Main.storyboard */,
 				245657B7207DBFB0000CB5F9 /* Assets.xcassets */,
-				245657B9207DBFB0000CB5F9 /* LaunchScreen.storyboard */,
+				245657C7207EECB4000CB5F9 /* LaunchScreen.storyboard */,
 				245657BC207DBFB0000CB5F9 /* Info.plist */,
 				245657BD207DBFB0000CB5F9 /* main.m */,
+				245657C4207DF5D5000CB5F9 /* RacView.h */,
+				245657C5207DF5D5000CB5F9 /* RacView.m */,
+				245657C9207F0E4D000CB5F9 /* ModelViewController.h */,
+				245657CA207F0E4D000CB5F9 /* ModelViewController.m */,
 			);
 			path = RACTest;
+			sourceTree = "<group>";
+		};
+		D6D690B2B86DFAE8ACE59F20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AC5BC39C5245A557D7674F0 /* libPods-RACTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E00C8C9881FC44DE3E16530F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				777F3BDFFDA214A8AE510BB8 /* Pods-RACTest.debug.xcconfig */,
+				F7E232E1756D50F106D022C1 /* Pods-RACTest.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 245657C1207DBFB0000CB5F9 /* Build configuration list for PBXNativeTarget "RACTest" */;
 			buildPhases = (
+				37350200940E3CAB985314DD /* [CP] Check Pods Manifest.lock */,
 				245657A7207DBFB0000CB5F9 /* Sources */,
 				245657A8207DBFB0000CB5F9 /* Frameworks */,
 				245657A9207DBFB0000CB5F9 /* Resources */,
+				A426AE6CCAB1259FC911FA09 /* [CP] Embed Pods Frameworks */,
+				9CEBDDAC596C20F39F951B78 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,7 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				245657BB207DBFB0000CB5F9 /* LaunchScreen.storyboard in Resources */,
+				245657C8207EECB4000CB5F9 /* LaunchScreen.storyboard in Resources */,
 				245657B8207DBFB0000CB5F9 /* Assets.xcassets in Resources */,
 				245657B6207DBFB0000CB5F9 /* Main.storyboard in Resources */,
 			);
@@ -137,12 +174,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37350200940E3CAB985314DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RACTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CEBDDAC596C20F39F951B78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACTest/Pods-RACTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A426AE6CCAB1259FC911FA09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACTest/Pods-RACTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		245657A7207DBFB0000CB5F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				245657B3207DBFB0000CB5F9 /* ViewController.m in Sources */,
+				245657CB207F0E4D000CB5F9 /* ModelViewController.m in Sources */,
+				245657C6207DF5D5000CB5F9 /* RacView.m in Sources */,
 				245657BE207DBFB0000CB5F9 /* main.m in Sources */,
 				245657B0207DBFB0000CB5F9 /* AppDelegate.m in Sources */,
 			);
@@ -157,14 +247,6 @@
 				245657B5207DBFB0000CB5F9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		245657B9207DBFB0000CB5F9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				245657BA207DBFB0000CB5F9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -276,10 +358,13 @@
 		};
 		245657C2207DBFB0000CB5F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 777F3BDFFDA214A8AE510BB8 /* Pods-RACTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CVGD8L82A;
 				INFOPLIST_FILE = RACTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = songchengjie.RACTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,10 +374,13 @@
 		};
 		245657C3207DBFB0000CB5F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E232E1756D50F106D022C1 /* Pods-RACTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CVGD8L82A;
 				INFOPLIST_FILE = RACTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = songchengjie.RACTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
